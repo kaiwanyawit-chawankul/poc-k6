@@ -1,0 +1,20 @@
+{
+  "name": "poc-perf-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "smoke": "K6_INSECURE_SKIP_TLS_VERIFY=true k6 run smoke_test.js",
+    "load": "k6 run load_test.js",
+    "stress": "k6 run stress_test.js",
+    "soak": "k6 run soak_test.js",
+    "spike": "k6 run spike_test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
