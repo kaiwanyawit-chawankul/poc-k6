@@ -1,8 +1,8 @@
 
 # Readings
 
-https://grafana.com/docs/k6/latest/testing-guides/test-types/
-https://grafana.com/docs/k6/latest/testing-guides/api-load-testing/
+ - https://grafana.com/docs/k6/latest/testing-guides/test-types/
+ - https://grafana.com/docs/k6/latest/testing-guides/api-load-testing/
 
 
 # Setup
