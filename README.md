@@ -37,6 +37,15 @@ Only use this for development. For production testing, always use valid certific
 --insecure-skip-tls-verify disables all certificate verification, so it's not suitable for security-sensitive testing.
 ```
 
+# Run
+
+```
+npm start
+```
+another terminal
+```
+npm run smoke
+```
 
 
 
