@@ -13,13 +13,17 @@
 cd /path/to/your/server/directory
 
  - Generate a private key file (key.pem)
+```
 openssl genrsa -out key.pem 2048
-
+```
  - Generate a certificate signing request (CSR) file
+```
 openssl req -new -key key.pem -out csr.pem
-
+```
  - Create a self-signed certificate file (cert.pem)
+```
 openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem
+```
 
 ## Self sign problem
 
